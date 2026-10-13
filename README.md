@@ -1,22 +1,20 @@
-# News Summarizer (Android) 📰📱
+# News Summarizer (Android) 📰
 
-Hey there! 👋 Welcome to **News Summarizer Android**.
-
-This project is inspired by my Spring Boot backend project [`news-summarizer-with-mistralAI`](https://github.com/your-username/news-summarizer-with-mistralAI). While this Android app doesn't do AI summarization just yet, it serves as the mobile frontend that hooks into [News API](https://newsapi.org/) to pull the top news headlines for the default country (`us`) and post them straight to a clean Android UI!
+This project is inspired by my Spring Boot backend project [`news-summarizer-with-mistralAI`](https://github.com/your-username/news-summarizer-with-mistralAI). While this Android app doesn't do AI summarization just yet, it serves as the mobile frontend that hooks into [News API](https://newsapi.org/) to pull the top news headlines for the default country (`us`) and post them straight to a clean Android UI.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Top Headlines Feed**: Fetches real-time top news headlines from News API (`/v2/top-headlines`).
-- **Rich Card Layout**: Displays news items in Material 3 CardViews with article thumbnail images, titles, news sources, and description snippets.
+- **Card Layout**: Displays news items in Material 3 CardViews with article thumbnail images, titles, news sources, and description snippets.
 - **Async Image Loading**: Uses [Glide](https://github.com/bumptech/glide) for smooth image caching and loading.
 - **In-App Browser Jump**: Tapping on any news card opens the full original article in your browser.
 - **Response Logging**: Built-in Logcat integration (using OkHttp `HttpLoggingInterceptor` and custom `NewsAPI` tags) to easily inspect API responses and debug network calls.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 - **Language**: Java / Android SDK
 - **Networking**: [Retrofit 2](https://square.github.io/retrofit/) + [Gson Converter](https://github.com/google/gson)
@@ -26,7 +24,7 @@ This project is inspired by my Spring Boot backend project [`news-summarizer-wit
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repo**:
    ```bash
@@ -51,7 +49,7 @@ This project is inspired by my Spring Boot backend project [`news-summarizer-wit
 
 ---
 
-## 🔍 Debugging & Logs
+## Debugging & Logs
 
 Want to inspect the raw JSON coming from News API? Open the **Logcat** window in Android Studio and filter by:
 ```text
@@ -65,10 +63,11 @@ You'll see the full request/response headers, status codes, and JSON response pa
 
 ---
 
-## 📌 Future Ideas
+## Future Ideas
 
 - [ ] Connect with the `news-summarizer-with-mistralAI` Spring Boot backend to generate AI bullet-point summaries for each article.
 - [ ] Add category tabs (Technology, Business, Sports, Entertainment, etc.).
 - [ ] Add country selector and search functionality.
 
-Enjoy reading the news! 🚀
+
+Thank you for reading!

@@ -4,6 +4,21 @@ This project is inspired by my Spring Boot backend project [`news-summarizer-wit
 
 ---
 
+## Screenshots / App preview
+
+Here are a few preview images from the application:
+
+<div align="center">
+   <img width="200" alt="mobile 3" src="https://github.com/user-attachments/assets/3e89df4e-32f3-45cb-bce7-67eb0feb6c6f" />
+   <img width="200" alt="mobile 2" src="https://github.com/user-attachments/assets/ee246a8f-3458-40f6-8f37-1906077d1c35" />
+   <img width="200" alt="mobile 1" src="https://github.com/user-attachments/assets/ec4168af-f470-4dcf-b73f-d94ebb761a95" />
+   <img width="200" alt="mobile 4" src="https://github.com/user-attachments/assets/f238ff60-4d01-4d13-9488-4d63bd162d23" />
+</div>
+
+Simply tap any news card to launch the full article directly in your web browser.
+
+---
+
 ## Features
 
 - **Top Headlines Feed**: Fetches real-time top news headlines from News API (`/v2/top-headlines`).
